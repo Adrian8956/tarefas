@@ -32,8 +32,9 @@
 .infoContent{
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 40%;
+  border: solid 1px #fff; 
 }
 
 .box{
@@ -44,7 +45,7 @@
 }
 
 .box:hover{
-  tranform: scale(1.08);
+  transform: scale(1.1);
 }
 
 @media screen and (max-width: 580px){
