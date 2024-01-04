@@ -24,7 +24,7 @@ export default function Home({posts, comments}: HomeProps) {
              <Image className={styles.hero} alt='Logo tarefas+' src={heroImage} priority/>
           </div>
           <h1 className={styles.title}>
-            Sistema feito para voçê organizar <br /> seus estudos e tarefas
+            Sistema feito para você organizar <br /> seus estudos e tarefas
           </h1>
         </main>
 
